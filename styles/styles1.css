@@ -1,0 +1,31 @@
+.carousel-item {
+    height: 500px;
+
+}
+
+.carousel-item img {
+    height:100%;
+    object-fit:cover;
+    position: center;
+}
+
+.navbar-brand img{
+    width: 30px;
+}
+
+.carousel-item::before{
+    width: 50%;
+    height: 50%;
+    position:absolute ;
+    content: "";
+    background: linear-gradient(transparent, black);
+   
+}
+
+.corpo{
+    padding-top: 20px;
+    line-height: 10px;
+}
+body{
+    padding: 30px;
+}
